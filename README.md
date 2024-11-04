@@ -28,7 +28,8 @@ Para executar devo abrir o navegador digitar o seguinte endereço na barra de bu
 "http://localhost:84/nomeDaMinhaPasta"
 
 ## Criando (Declarando) Variáveis PHP 
-No PHP, uma variavel começa com o sinal **$**, seguido do nome da variavel:
+No PHP, uma variavel começa com o sinal **$**, seguido do nome da variavel 
+Exemplo abaixo: 
 ``````php
 <?php
 $txt = "INHAIM!!";
@@ -42,5 +43,5 @@ $txt = "INHAIM!!";
     echo $y;
 ?>
 ``````
-
-
+- O nome de uma variavel não pode começar com um número
+- Os nomes das variaveis diferenciam maiúsculas de minusculas (**$age** e **$AGE** são duas variáveis diferentes)
