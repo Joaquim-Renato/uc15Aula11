@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário de Cadastro</title>
+    </head>
+    <body>
+        <div>
+            <form action="array.php" method="post">
+                <fieldset>
+                    <legend>Formulário de Cadastro</legend>
+                    <br />
+
+                    <p>Digite opções de lazer de sua preferência</p>
+                    <input type="checkbox" name="lazer[]" value="Natação" /> Atividades Aquátivas <br />
+                    <input type="checkbox" name="lazer[]" value="Ciclismo" /> Passeios de bike <br />
+                    <input type="checkbox" name="lazer[]" value="Mergulho" /> Práticas de Mergulho <br />
+                    <input type="checkbox" name="lazer[]" value="Caminhada" /> Passeio pelo calçadão beira mar <br />
+                    <input type="checkbox" name="lazer[]" value="Trilha" /> Passeio por trilhas naturais <br />
+                    <input type="checkbox" name="lazer[]" value="Corrida" /> Campeonatos de corrida <br />
+                    <input type="checkbox" name="lazer[]" value="Surfe" /> Prátivas de surfe e pranchão <br />
+                    <input type="checkbox" name="lazer[]" value="Embarcação" /> Passeios de barcos e lanchas <br />
+                    <!--########## Botão CADASTRAR #########-->
+                    <br />
+                    <p align="center">
+                        <input type="submit" value="Cadastrar" /> <input type="reset" value="Limpar" />
+                    </p>
+                    <br />
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

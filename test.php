@@ -38,7 +38,13 @@
     $abc = "Estudar Programação ";
     echo "I Love " . $abc . "!";
     ?>
-    
+    <h3>Exemplo case-sensitive:</h3>
+    <?php
+    $color = "red";
+    echo "my car is " . $color . "<br>";
+    echo "my house is " . $COLOR . "<br>";
+    echo "my boat is " . $coLOR . "<br>"
+    ?> 
 </body>
 
 </html>

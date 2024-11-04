@@ -45,3 +45,14 @@ $txt = "INHAIM!!";
 ``````
 - O nome de uma variavel não pode começar com um número
 - Os nomes das variaveis diferenciam maiúsculas de minusculas (**$age** e **$AGE** são duas variáveis diferentes)
+Exemplo: 
+``````php
+ <?php
+    $color = "red";
+    echo "my car is " . $color . "<br>";
+    echo "my house is " . $COLOR . "<br>";
+    echo "my boat is " . $coLOR . "<br>"
+    ?> 
+``````
+---
+##  Desenvolver e organizar elementos estruturais de sites Código HTML Formulário das opções Array “Lazer[]”
