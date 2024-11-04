@@ -24,6 +24,6 @@ $txt = "PHP";
 echo "I love $txt";
 ?>
 ``````
-Para executar devo abrir o navegador digitar na barra de buscas 
+Para executar devo abrir o navegador digitar o seguinte endereço de pesquisa na barra de buscas
 "http://localhost:84/nomeDaMinhaPasta"
 
