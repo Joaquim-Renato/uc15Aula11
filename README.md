@@ -3,7 +3,7 @@
 
 Deve ser hospedado em:
 - Disco local (C:)
-- Dir **xampp**
+- Pasta **xampp**
 - Pasta **htdocs**
 ---
 
